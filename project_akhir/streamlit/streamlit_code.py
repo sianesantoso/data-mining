@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 # Load model yang sudah dibuat sebelumnya 
-with open('data-mining/project_akhir/streamlit/best_model.pkl', 'rb') as file:
+with open('../best_model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # judul
