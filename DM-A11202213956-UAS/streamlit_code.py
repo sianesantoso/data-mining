@@ -3,7 +3,7 @@ import pickle
 import pandas as pd
 
 # Load model yang sudah dibuat sebelumnya 
-with open('best_model.pkl', 'rb') as file:
+with open('DM-A11202213956-UAS/best_model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # judul
